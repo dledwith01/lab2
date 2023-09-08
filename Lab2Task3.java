@@ -14,8 +14,8 @@ public class Lab2Task3 {
 	public static void main(String[] args) {
 		// Information given in prompt
 		final double COST_PER_LITER = 0.38;		// in dollars
-		final double PROFIT_PER_CARTON = 0.27;	// in dollars
-		final double CARTON_CAPACITY = 3.78; 	// in liters
+		final double PROFIT_PER_CARTON = 0.27;		// in dollars
+		final double CARTON_CAPACITY = 3.78; 		// in liters
 		
 		// Variables to store user input and results
 		double litersProduced;
