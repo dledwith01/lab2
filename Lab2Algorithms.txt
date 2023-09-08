@@ -1,0 +1,71 @@
+//FILENAME: Lab2Algorithms.txt
+//STUDENT NAME: DANIEL LEDWITH
+//STUDENT UIN: 01265466
+//DATE: 09/08/2023
+
+LAB 2 Algorithms
+
+
+
+Task 1. Straight-line distance between two points
+
+	Step 1. Prompt the user for the x and y coordinates 
+			for each point.
+			
+	Step 2. Collect user input and store each coordinate
+			in its own variable.
+			
+	Step 3. Use Pythagorean theorem to find straight-line
+			distance between (x1, y1) and (x2, y2). 
+			Recall: a^2 + b^2 = c^2.
+			
+			i. 	a is the difference between x2 and x1
+				b is the diffrence between y2 and y1
+				
+			ii.	c is the square root of the sum of a^2 and b^2.
+	
+	Step 4.	Display the result of step 3.ii to the user.
+	
+	
+
+Task 2. Average of four test scores
+
+	Step 1. Prompt the user to input the four test scores.
+	
+	Step 2. Collect user input and store each test score 
+			in its own variable.
+	
+	Step 3.	Compute the average of the four test scores.
+	
+			i. 	Compute the sum of the four test scores.
+			
+			ii.	Divide the sum by the total number of
+				test scores (in this case, 4).
+					
+	Step 4.	Display the result of step 3.ii to the user.
+	
+	
+
+Task 3. Number of cartons needed, total production cost, and total profit
+
+	Step 1.	Store constants (cost per liter = $0.38, profit per carton = $0.27, 
+			and carton capacity = 3.78 liters) given in prompt in final variables.
+	
+	Step 2.	Prompt the user to input the amount of milk produced in liters.
+	
+	Step 3. Collect user input and store the value in a variable.
+	
+	Step 4.	Compute number of cartons needed. Cartons must be stored as an integer.
+			i. 	Cartons needed is equal to the amount of milk produced in liters 
+				divided by the carton capacity (given), rounded up to the nearest 
+				integer.
+	
+	Step 5.	Compute the total cost of production.
+			i.	Total cost of production is equal to the amount of milk produced
+				in liters multiplied by the cost per liter (given).
+				
+	Step 6.	Compute total profit
+			i.	Total profit is equal to the number of cartons needed (computed) 
+				multiplied by the profit per carton (given).
+			
+	Step 7. Display the results of step 4.i, 5.i, and 6.i to the user.
